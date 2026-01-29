@@ -1,0 +1,130 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    background: #f5f7fa;
+}
+
+header {
+    background: #0a3d62;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.tagline {
+    font-style: italic;
+}
+
+marquee {
+    background: #1e3799;
+    color: white;
+    padding: 10px;
+}
+
+nav {
+    background: #222;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    margin: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #fbc531;
+}
+
+section {
+    padding: 30px;
+    text-align: center;
+}
+
+.intro img {
+    width: 220px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.vision-mission {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.vision-mission div {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-box {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-box i {
+    font-size: 40px;
+    color: #0a3d62;
+    margin-bottom: 10px;
+}
+
+.gallery img {
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.contact-form button {
+    background: #0a3d62;
+    color: rgb(184, 38, 38);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact i {
+    color: #0a3d62;
+    margin-right: 8px;
+}
+
+.social a {
+    font-size: 30px;
+    margin: 10px;
+    color: #0a3d62;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
